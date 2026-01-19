@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Show listening TCP and UDP ports with associated programs
+
+sudo netstat -tulpn
+sudo netstat -lxpn
